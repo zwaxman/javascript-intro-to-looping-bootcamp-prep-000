@@ -15,6 +15,7 @@ function whileLoop(n){
     console.log(n)
     n--
   }
+  return 'done'
 }
 
 //   describe('whileLoop(n)', () => {
