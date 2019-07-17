@@ -18,6 +18,14 @@ function whileLoop(n){
   return 'done'
 }
 
+function doWhileLoop(n){
+  var i=0;
+  do{
+    console.log("I run once regardless")
+    i++
+  } while(i<n)
+}
+
 //   describe('whileLoop(n)', () => {
 //     it('counts down from n to 0', () => {
 //       const spy = chai.spy.on(console, 'log')
