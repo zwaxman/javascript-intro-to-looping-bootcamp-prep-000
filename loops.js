@@ -7,9 +7,8 @@ function forLoop(arr){
       arr.push(`I am ${i} stange loops.`)
     }
     }
+    return arr
   }
-  return arr
-}
 
 // describe('forLoop(array)', () => {
 //     it('adds `"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."` to an array 25 times', () => {
