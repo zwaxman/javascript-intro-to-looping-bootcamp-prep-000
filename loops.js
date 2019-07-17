@@ -1,4 +1,6 @@
-
+function forLoop(arr){
+  for(var i=0;i<25)
+}
 
 // describe('forLoop(array)', () => {
 //     it('adds `"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."` to an array 25 times', () => {
